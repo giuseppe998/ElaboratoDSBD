@@ -1,0 +1,10 @@
+metrics:
+  - metricName : 'CpuUsage'
+    labels : 
+        'nodeId' : '111'
+  - metricName : 'diskUsage'
+    labels :
+        'instance' : '105'
+        'job' : 'summary'
+
+  

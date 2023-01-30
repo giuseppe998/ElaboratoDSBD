@@ -1,0 +1,20 @@
+metrics:
+  - metricName : 'CpuUsage'
+    labels : 
+        'nodeId' : '111'
+  - metricName: 'diskUsage'
+    labels :
+        'instance' : '105'
+        'job' : 'summary'
+  - metricName : 'cpuCriticalTemp'
+    labels :
+        'instance' : '105'
+        'job' : 'sensor'
+  - metricName : 'bootTime'
+    labels :
+        'instance' : '106'
+        'job' : 'system'
+  - metricName : 'uptime'
+    labels :
+        'instance' : '107'
+        'job' : 'system'
